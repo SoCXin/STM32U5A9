@@ -1,0 +1,31 @@
+{
+    "type":"MCU",
+    "name":"STM32U5A9",
+    "title": "ST STM32U5A9 MCU",
+    "description":"ST Cortex-M33 MCU",
+    "Core": {
+        "type":"Cortex-M33",
+        "Freq":160,
+        "DMIPS": 210,
+        "CoreMark": 655
+    },
+    "manufacturer": {
+        "vendor":"ST",
+        "homepage":"https://www.st.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/STM32U5A9.git"
+    },
+    "version":"1.0.0",
+    "series":["STM32U5A9"],
+    "package":["LQFP144","LQFP100","LQFP64"],
+    "peripheral": ["ADC","UART","I2C","SPI","PWM"],
+    "keywords": [
+        "dev-platform",
+        "ARM",
+        "Cortex-M",
+        "ADC","DAC","SDIO","CAN","I2C","RTC","SPI",
+        "3.6V","1.71V"
+    ]
+}
